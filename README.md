@@ -18,4 +18,4 @@ This plugin overrides the default ArchivesSpace branding and footer templates, f
 Additionally, the CSS file at `frontend/assets/theme.css` modifies the header's background color and padding to accommodate the Bentley's logo image. The CSS file is loaded by `frontend/views/layout_head.html.erb`
 
 ## Preview
-![screenshot](docs\screenshot.PNG "BHL ASpace Branding")
+![screenshot](docs/screenshot.PNG "BHL ASpace Branding")
