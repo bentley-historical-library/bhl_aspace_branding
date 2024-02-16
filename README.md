@@ -13,7 +13,7 @@ This plugin adds custom Bentley Historical Library branding to ArchivesSpace. It
             layout_head.html.erb
 
 ## How it Works
-This plugin overrides the default ArchivesSpace branding and footer templates, found at `archivesspace/frontend/app/views/site/_branding.html.erb` and `archivesspace/frontend/app/views/site/_footer.html.erb`, respectively. The new `_branding.html.erb` template replaces the default ArchivesSpace logo with the Bentley logo found at `frontend/assets/bhl-fa-smlogo.gif`. The new `_footer.html.erb` template replaces the default ArchivesSpace footer, adding a link to the [BHL Processing Manual](https://sites.google.com/a/umich.edu/bhl-archival-curation/processing-archival-collections). 
+This plugin overrides the default ArchivesSpace branding and footer templates, found at `archivesspace/frontend/app/views/site/_branding.html.erb` and `archivesspace/frontend/app/views/site/_footer.html.erb`, respectively. The new `_branding.html.erb` template replaces the default ArchivesSpace logo with the Bentley logo found at `frontend/assets/bhl-fa-smlogo.gif`. The new `_footer.html.erb` template replaces the default ArchivesSpace footer, adding a link to the [BHL Processing Manual](https://sites.google.com/a/umich.edu/bhl-archival-curation/processing/overview). 
 
 Additionally, the CSS file at `frontend/assets/theme.css` modifies the header's background color and padding to accommodate the Bentley's logo image. The CSS file is loaded by `frontend/views/layout_head.html.erb`
 
